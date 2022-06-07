@@ -1,0 +1,95 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	box-sizing:border-box;
+}
+html,body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100%;
+	width:100%;
+	overflow:hidden;
+}
+#wrapper{
+	height:80%;
+	width:60%;
+	padding:3px;
+	position:relative;
+	background-color:#FFF5EE;
+	border:2px outset #C0C0C0;
+	border-radius:25px;
+}
+#task{
+	height:40px;
+	width:40px;
+	position:absolute;
+	margin-top:0.5%;
+	margin-left:0.5%;
+	border-radius:50%;
+	color:#C0C0C0;
+	border:1.5px outset #C0C0C0;
+	transition:0.2s;
+}
+#task:hover{
+	box-shadow:0 0 1px rgba(202,228,225,0.92),0 0 9px rgba(202,228,225,0.34),0 0 3px rgba(30,132,242,0.52),0 0 6px rgba(30,132,242,0.92),0 0 10px rgba(30,132,242,0.78),0 0 15px rgba(30,132,242,0.92);
+}
+#main_block{
+	height:50%;
+	width:100%;
+	border:1px outset #C0C0C0;
+	border-radius:22px 22px 0px 0px;
+}
+#memory_condition{
+	height:100%;
+	width:50%;
+	float:left;
+	border-radius:22px 0px 0px 0px;
+}
+#memory_info{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	height:90%;
+	width:100%;
+}
+#button_box{
+	height:100%;
+	width:50%;
+	float:right;
+	border-radius:0px 22px 0px 0px;
+}
+.buttons{
+	display:block;
+	height:13%;
+	width:50%;
+	margin:1.5% auto;
+	border:1.5px outset #C0C0C0;
+	border-radius:20px;
+	color:#C0C0C0;
+	background-color:#424242;
+	transition:0.3s;
+}
+.buttons:hover{
+	color:#c6e2ff;
+	text-shadow:0 0 2px rgba(202,228,225,0.92),0 0 10px rgba(202,228,225,0.34),0 0 4px rgba(30,132,242,0.52),0 0 7px rgba(30,132,242,0.92),0 0 11px rgba(30,132,242,0.78),0 0 16px rgba(30,132,242,0.92);
+	box-shadow:0 0 2px rgba(202,228,225,0.92),0 0 10px rgba(202,228,225,0.34),0 0 4px rgba(30,132,242,0.52),0 0 7px rgba(30,132,242,0.92),0 0 11px rgba(30,132,242,0.78),0 0 16px rgba(30,132,242,0.92);
+}
+#table_block{
+	height:50%;
+	width:100%;
+	border:1px outset #C0C0C0;
+	border-radius:0px 0px 22px 22px;
+	overflow:auto;
+}
+#table_processes{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	height:90%;
+	width:100%;
+}
+h3{
+	text-align:center;
+}
