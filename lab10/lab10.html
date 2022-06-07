@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/minimal-table.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="style.css">
+        <title>lab10</title>
+    </head>
+    <body>
+        <div id="wrapper">
+			<button id="task">TASK</button>
+            <div id="info_block">
+                <div class="pagesInfo" id="pagesInfo">
+				<h3>Состояние памяти</h3>
+                </div>
+                <div class="pagesInfoTable" id="pagesInfoTable">
+					<h3>Таблица процесоов</h3>
+                </div>
+            </div>
+            <div id="menu_block">
+                <div class="block">
+                    <input type="text" placeholder="Имя страницы" id="pageNameAdd" class="input">
+                    <input type="button" value="Добавить" id="addPageBtn" class="input">
+                </div>
+                <div class="block">
+                    <input type="text" placeholder="Имя страницы" id="pageNameDel" class="input">
+                    <input type="button" value="Удалить" id="deletePageBtn" class="input">
+                </div>
+                <div class="block">
+                    <input type="button" value="Обратиться к страницам" id="callPageBtn" class="input">
+                    <input type="button" value="Очистить память" id="freeMemoryBtn" class="input">
+                </div>
+            </div>
+        </div>
+        <script src="lab10.js"></script>
+    </body>
+</html>
