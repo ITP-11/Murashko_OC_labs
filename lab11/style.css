@@ -1,0 +1,85 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	box-sizing:border-box;
+}
+html,body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100%;
+	width:100%;
+	overflow:hidden;
+}
+#wrapper{
+	height:80%;
+	width:60%;
+	padding:3px;
+	position:relative;
+	background-color:#FFF5EE;
+	border:2px outset #C0C0C0;
+	border-radius:25px;
+}
+#task{
+	height:40px;
+	width:40px;
+	position:absolute;
+	margin-top:0.5%;
+	margin-left:0.5%;
+	border-radius:50%;
+	color:#C0C0C0;
+	border:1.5px outset #C0C0C0;
+	transition:0.2s;
+}
+#task:hover{
+	box-shadow:0 0 1px rgba(202,228,225,0.92),0 0 9px rgba(202,228,225,0.34),0 0 3px rgba(30,132,242,0.52),0 0 6px rgba(30,132,242,0.92),0 0 10px rgba(30,132,242,0.78),0 0 15px rgba(30,132,242,0.92);
+}
+h3{
+	text-align:center;
+}
+#info_block{
+	height:45%;
+	width:100%;
+	border:1px outset #C0C0C0;
+	border-radius:25px;
+}
+#add_box{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:10%;
+	width:100%;
+}
+#addFile{
+	height:40px;
+	width:40px;
+	border-radius:50%;
+	color:#C0C0C0;
+	border:1.5px outset #C0C0C0;
+	transition:0.2s;
+}
+#addFile:hover{
+	box-shadow:0 0 1px rgba(202,228,225,0.92),0 0 9px rgba(202,228,225,0.34),0 0 3px rgba(30,132,242,0.52),0 0 6px rgba(30,132,242,0.92),0 0 10px rgba(30,132,242,0.78),0 0 15px rgba(30,132,242,0.92);
+}
+.journal__table{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:45%;
+	width:100%;
+	border:1px outset #C0C0C0;
+	border-radius:25px;
+}
+.info__files,.info__memory{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:50%;
+	width:100%;
+	overflow:auto;
+	border:1px outset #C0C0C0;
+	border-radius:25px;
+}
+
+
